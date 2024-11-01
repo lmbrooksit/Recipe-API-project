@@ -77,9 +77,9 @@ WSGI_APPLICATION = 'app.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'your_db_name',
-        'USER': 'your_user',
-        'PASSWORD': 'your_password',
+        'NAME': 'datagurudatabase',
+        'USER': 'admin',
+        'PASSWORD': 'Bsu2019!',
         'HOST': '127.0.0.1',  # or '127.0.0.1'
         'PORT': '',  # default is 5432
     }
