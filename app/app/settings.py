@@ -80,7 +80,7 @@ DATABASES = {
         'NAME': 'datagurudatabase',
         'USER': 'admin',
         'PASSWORD': 'Bsu2019!',
-        'HOST': 'app',  # or '127.0.0.1'
+        'HOST': '127.0.0.1',  # or '127.0.0.1'
         'PORT': '5432',  # default is 5432
     }
 }
