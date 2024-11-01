@@ -81,7 +81,7 @@ DATABASES = {
         'USER': 'admin',
         'PASSWORD': 'Bsu2019!',
         'HOST': '127.0.0.1',  # or '127.0.0.1'
-        'PORT': '',  # default is 5432
+        'PORT': '5432',  # default is 5432
     }
 }
 
