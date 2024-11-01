@@ -11,8 +11,6 @@ EXPOSE 8000
 
 ARG DEV=false
 RUN pip install flake8
-RUN apk update && \
-    apk add --no-cache postgresql-dev gcc python3-dev musl-dev
 RUN python -m venv /py && \
     /py/bin/pip install --upgrade pip && \
     /py/bin/pip install -r /tmp/requirements.txt && \
